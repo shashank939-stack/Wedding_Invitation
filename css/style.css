@@ -2248,3 +2248,34 @@ body.mode-booklet .booklet-container {
   0% { opacity: 0; transform: translateY(-20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+/* Page 5: Fix spacing after removing events */
+.page-5 .page-inner {
+    justify-content: flex-start;
+}
+
+.page-5 .day3-events-grid {
+    margin-top: 0;
+    gap: 12px;
+}
+/* Page 4: Fix address overlapping with frame border */
+.page-4 .page-inner {
+    justify-content: flex-start;
+    gap: 14px;
+    max-height: none;
+    height: auto;
+    overflow: visible;
+}
+
+.page-4 .page-inner > .event-detail-p {
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.page-4 .page-mini-banner {
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+}

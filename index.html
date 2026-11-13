@@ -1,894 +1,893 @@
 <!DOCTYPE html>
 <html lang="hi">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-  <title>शाही विवाह निमंत्रण – शशांक एवं अर्चना</title>
-  <meta name="description" content="श्री शशांक गुर्जर एवं सुश्री अर्चना पाण्डेय के शुभ विवाह का शाही डिजिटल निमंत्रण। KRB, Kadola, Harda। सादर आमंत्रित: गुर्जर एवं पाण्डेय परिवार।">
-  <meta name="theme-color" content="#4A0714">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>शाही विवाह निमंत्रण – शशांक एवं अर्चना</title>
+    <meta name="description" content="श्री शशांक एवं सुश्री अर्चना के शुभ विवाह का शाही डिजिटल निमंत्रण। KRB, Kadola, Harda">
+    <meta name="theme-color" content="#4A0714">
 
-  <!-- Open Graph for WhatsApp & Social Media Preview -->
-  <meta property="og:title" content="शाही विवाह निमंत्रण – शशांक संग अर्चना">
-  <meta property="og:description" content="॥ शुभ विवाह ॥ 10 दिसंबर | KRB, Kadola, Harda | सादर आमंत्रित: गुर्जर एवं पाण्डेय परिवार">
-  <meta property="og:image" content="assets/images/ganesha.jpg">
-  <meta property="og:type" content="website">
+    <!-- Open Graph for WhatsApp & Social Media Preview -->
+    <meta property="og:title" content="शाही विवाह निमंत्रण – शशांक संग अर्चना">
+    <meta property="og:description" content="॥ शुभ विवाह ॥ 10 दिसंबर | KRB, Kadola, Harda">
+    <meta property="og:image" content="assets/images/ganesha.jpg">
+    <meta property="og:type" content="website">
 
-  <!-- Google Fonts: Rozha One, Yatra One, Tiro Devanagari Hindi, Poppins, Cinzel Decorative -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Gotu&family=Poppins:wght@300;400;500;600;700&family=Rozha+One&family=Tiro+Devanagari+Hindi:ital@0;1&family=Yatra+One&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Gotu&family=Poppins:wght@300;400;500;600;700&family=Rozha+One&family=Tiro+Devanagari+Hindi:ital@0;1&family=Yatra+One&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="mode-cinematic">
 
-  <!-- Flower Petals & Gold Sparkle Background Canvas -->
-  <canvas id="petalCanvas" class="petal-canvas"></canvas>
+    <!-- Flower Petals & Gold Sparkle Background Canvas -->
+    <canvas id="petalCanvas" class="petal-canvas"></canvas>
 
-  <!-- Audio Element: Namo Re Wedding Soundtrack -->
-  <audio id="weddingAudio" preload="auto" loop>
+    <!-- Audio Element: Namo Re Wedding Soundtrack -->
+    <audio id="weddingAudio" preload="auto" loop>
     <source src="assets/audio/wedding_music.mp3" type="audio/mpeg">
     <source src="assets/audio/Namo%20Re%20(Telugu)(KoshalWorld.Com).mp3" type="audio/mpeg">
   </audio>
 
-  <!-- Welcome / Enter Overlay -->
-  <div id="welcomeOverlay" class="welcome-overlay">
-    <div class="welcome-card royal-frame">
-      <div class="diya-animation">
-        <span class="flame"></span>
-        <span class="base">🪔</span>
-      </div>
-      <div class="ganesha-symbol">॥ श्री गणेशाय नमः ॥</div>
-      <h1 class="welcome-title">शाही विवाह निमंत्रण</h1>
-      <p class="welcome-subtitle">शशांक गुर्जर <span class="heart-symbol">❦</span> अर्चना पाण्डेय</p>
-      <div class="welcome-divider">
-        <span class="ornament">❧</span>
-        <span class="line"></span>
-        <span class="om-sign">ॐ</span>
-        <span class="line"></span>
-        <span class="ornament">☙</span>
-      </div>
-      <p class="welcome-note">“नमो रे” मधुर संगीत एवं सिनेमैटिक वैभव के साथ इस पावन निमंत्रण का अनुभव करें</p>
-      
-      <div class="welcome-actions">
-        <button id="btnEnterInvitation" class="btn-royal primary-btn">
+    <!-- Welcome / Enter Overlay -->
+    <div id="welcomeOverlay" class="welcome-overlay">
+        <div class="welcome-card royal-frame">
+            <div class="diya-animation">
+                <span class="flame"></span>
+                <span class="base">🪔</span>
+            </div>
+            <div class="ganesha-symbol">॥ श्री गणेशाय नमः ॥</div>
+            <h1 class="welcome-title">शाही विवाह निमंत्रण</h1>
+            <p class="welcome-subtitle">शशांक <span class="heart-symbol">❦</span> अर्चना</p>
+            <div class="welcome-divider">
+                <span class="ornament">❧</span>
+                <span class="line"></span>
+                <span class="om-sign">ॐ</span>
+                <span class="line"></span>
+                <span class="ornament">☙</span>
+            </div>
+            <p class="welcome-note">“नमो रे” मधुर संगीत एवं सिनेमैटिक वैभव के साथ इस पावन निमंत्रण का अनुभव करें</p>
+
+            <div class="welcome-actions">
+                <button id="btnEnterInvitation" class="btn-royal primary-btn">
           <span class="icon">✨</span> संगीत के साथ प्रवेश करें
         </button>
-        <button id="btnEnterMuted" class="btn-royal secondary-btn">
+                <button id="btnEnterMuted" class="btn-royal secondary-btn">
           <span class="icon">🔕</span> बिना संगीत के देखें
         </button>
-      </div>
-      <div class="swastik-row">
-        <span>卐</span>
-        <span>॥ ॐ श्री गणेशाय नमः ॥</span>
-        <span>卐</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Persistent Top Royal Navigation & Quick Action Bar -->
-  <header class="royal-topbar">
-    <div class="topbar-branding">
-      <span class="shubh-sign">॥ शुभ विवाह ॥</span>
-      <span class="couple-tag">शशांक &bull; अर्चना</span>
+            </div>
+            <div class="swastik-row">
+                <span>卐</span>
+                <span>॥ ॐ श्री गणेशाय नमः ॥</span>
+                <span>卐</span>
+            </div>
+        </div>
     </div>
 
-    <!-- Mode Toggle: Cinematic vs Booklet -->
-    <div class="view-mode-selector" role="tablist">
-      <button id="btnModeCinematic" class="mode-tab active" role="tab" aria-selected="true">
+    <!-- Persistent Top Royal Navigation & Quick Action Bar -->
+    <header class="royal-topbar">
+        <div class="topbar-branding">
+            <span class="shubh-sign">॥ शुभ विवाह ॥</span>
+            <span class="couple-tag">शशांक &bull; अर्चना</span>
+        </div>
+
+        <!-- Mode Toggle: Cinematic vs Booklet -->
+        <div class="view-mode-selector" role="tablist">
+            <button id="btnModeCinematic" class="mode-tab active" role="tab" aria-selected="true">
         <span class="tab-icon">🎬</span>
         <span class="tab-label">सिनेमैटिक फ़िल्म</span>
       </button>
-      <button id="btnModeBooklet" class="mode-tab" role="tab" aria-selected="false">
+            <button id="btnModeBooklet" class="mode-tab" role="tab" aria-selected="false">
         <span class="tab-icon">📖</span>
         <span class="tab-label">शाही पत्रिका</span>
       </button>
-    </div>
+        </div>
 
-    <!-- Quick Utilities -->
-    <div class="topbar-actions">
-      <button id="btnAudioToggle" class="utility-btn" title="संगीत चालू / बंद करें" aria-label="संगीत नियंत्रण">
+        <!-- Quick Utilities -->
+        <div class="topbar-actions">
+            <button id="btnAudioToggle" class="utility-btn" title="संगीत चालू / बंद करें" aria-label="संगीत नियंत्रण">
         <span id="audioIcon">🎵</span>
       </button>
-      <button id="btnPetalsToggle" class="utility-btn" title="पुष्पवर्षा चालू / बंद करें" aria-label="पुष्पवर्षा">
+            <button id="btnPetalsToggle" class="utility-btn" title="पुष्पवर्षा चालू / बंद करें" aria-label="पुष्पवर्षा">
         <span id="petalsIcon">🌸</span>
       </button>
-      <button id="btnShareWhatsApp" class="utility-btn share-btn" title="व्हाट्सएप पर निमंत्रण साझा करें" aria-label="शेयर">
+            <button id="btnShareWhatsApp" class="utility-btn share-btn" title="व्हाट्सएप पर निमंत्रण साझा करें" aria-label="शेयर">
         <span class="wa-icon">💬</span>
         <span class="btn-text">शेयर</span>
       </button>
-      <button id="btnFullscreen" class="utility-btn" title="फुलस्क्रीन" aria-label="फुलस्क्रीन">
+            <button id="btnFullscreen" class="utility-btn" title="फुलस्क्रीन" aria-label="फुलस्क्रीन">
         <span>⛶</span>
       </button>
-    </div>
-  </header>
-
-  <!-- ========================================================================= -->
-  <!-- 1. CINEMATIC FILM CONTAINER                                              -->
-  <!-- ========================================================================= -->
-  <main id="cinematicContainer" class="cinematic-container">
-    
-    <!-- Film Canvas / Viewport Screen -->
-    <div class="film-viewport" id="filmViewport">
-
-      <!-- ================= SCENE 1: श्री गणेश वंदना ================= -->
-      <section class="film-scene scene-1" id="scene1" data-scene="1" data-duration="12">
-        <div class="scene-backdrop scene-1-bg"></div>
-        <div class="maroon-vignette"></div>
-
-        <div class="scene-content">
-          <div class="shree-ganesh-title animate-shree-ganesh">
-            <span class="sacred-swastik">卐</span>
-            <span class="ganesh-calligraphy">॥ श्री गणेशाय नमः ॥</span>
-            <span class="sacred-swastik">卐</span>
-          </div>
-
-          <!-- Divine Golden Ganesha with Rotating Halo & Diyas -->
-          <div class="ganesha-artwork-wrapper">
-            <div class="divine-aura-rays"></div>
-            <div class="ornate-gold-frame">
-              <img src="assets/images/ganesha.jpg" alt="भगवान श्री गणेश" class="ganesha-img" id="sceneGaneshaImg">
-            </div>
-            <div class="diyas-flank">
-              <div class="royal-brass-diya diya-left">
-                <span class="diya-glow"></span>
-                <span class="diya-wick">🪔</span>
-              </div>
-              <div class="royal-brass-diya diya-right">
-                <span class="diya-glow"></span>
-                <span class="diya-wick">🪔</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Sanskrit Shloka with golden text glow -->
-          <div class="shloka-box animate-shloka">
-            <p class="sanskrit-shloka">
-              वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br>
-              निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
-            </p>
-            <p class="shloka-meaning">
-              हे विशाल देह, करोड़ों सूर्यों के समान तेजस्वी, वक्र सूंड वाले श्री गणेश!<br>
-              हमारे इस पावन मांगलिक कार्य को सदैव निर्विघ्न संपन्न करें।
-            </p>
-          </div>
         </div>
-      </section>
+    </header>
 
-      <!-- ================= SCENE 2: दो परिवारों का मिलन ================= -->
-      <section class="film-scene scene-2" id="scene2" data-scene="2" data-duration="14">
-        <div class="scene-backdrop scene-2-bg">
-          <img src="assets/images/palace_gate.jpg" alt="शाही राजमहल प्रवेश द्वार" class="palace-bg-img">
-        </div>
-        <div class="palace-gate-overlay">
-          <!-- 3D Opening Royal Golden Gates -->
-          <div class="royal-gate-door gate-left"></div>
-          <div class="royal-gate-door gate-right"></div>
-        </div>
+    <!-- ========================================================================= -->
+    <!-- 1. CINEMATIC FILM CONTAINER                                              -->
+    <!-- ========================================================================= -->
+    <main id="cinematicContainer" class="cinematic-container">
 
-        <div class="scene-content scene-2-content">
-          <div class="scene-header-tag">
-            <span class="gold-flower">❦</span> दो परिवारों का पावन मिलन <span class="gold-flower">❦</span>
-          </div>
+        <!-- Film Canvas / Viewport Screen -->
+        <div class="film-viewport" id="filmViewport">
 
-          <div class="couple-announcement-card royal-frame">
-            <div class="jharokha-arch-decor"></div>
-            
-            <div class="groom-section">
-              <span class="relation-prefix">चिरंजीव</span>
-              <h2 class="person-name groom-name">शशांक गुर्जर</h2>
-              <p class="parents-line">
-                सुपुत्र: <strong>श्रीमती ज्ञानेश्वरी जी</strong> एवं <strong>श्री प्रवीणजी गुर्जर</strong>
-              </p>
-            </div>
+            <!-- ================= SCENE 1: श्री गणेश वंदना ================= -->
+            <section class="film-scene scene-1" id="scene1" data-scene="1" data-duration="12">
+                <div class="scene-backdrop scene-1-bg"></div>
+                <div class="maroon-vignette"></div>
 
-            <div class="sang-emblem">
-              <div class="emblem-circle">
-                <span class="sang-text">संग</span>
-              </div>
-            </div>
+                <div class="scene-content">
+                    <div class="shree-ganesh-title animate-shree-ganesh">
+                        <span class="sacred-swastik">卐</span>
+                        <span class="ganesh-calligraphy">॥ श्री गणेशाय नमः ॥</span>
+                        <span class="sacred-swastik">卐</span>
+                    </div>
 
-            <div class="bride-section">
-              <span class="relation-prefix">आयुष्मती</span>
-              <h2 class="person-name bride-name">अर्चना पाण्डेय</h2>
-              <p class="parents-line">
-                सुपुत्री: <strong>श्रीमती बाबिताजी पाण्डेय</strong> एवं <strong>श्री कृष्ण कुमार जी पाण्डेय</strong>
-              </p>
-            </div>
+                    <!-- Divine Golden Ganesha with Rotating Halo & Diyas -->
+                    <div class="ganesha-artwork-wrapper">
+                        <div class="divine-aura-rays"></div>
+                        <div class="ornate-gold-frame">
+                            <img src="assets/images/ganesha.jpg" alt="भगवान श्री गणेश" class="ganesha-img" id="sceneGaneshaImg">
+                        </div>
+                        <div class="diyas-flank">
+                            <div class="royal-brass-diya diya-left">
+                                <span class="diya-glow"></span>
+                                <span class="diya-wick">🪔</span>
+                            </div>
+                            <div class="royal-brass-diya diya-right">
+                                <span class="diya-glow"></span>
+                                <span class="diya-wick">🪔</span>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="wedding-date-strip">
-              <span class="cal-icon">🗓️</span>
-              <span class="date-text">विवाह तिथि: <strong>10 दिसंबर</strong></span>
-              <span class="dot-sep">&bull;</span>
-              <span class="venue-brief">KRB, Kadola, Harda</span>
-            </div>
-          </div>
-        </div>
-      </section>
+                    <!-- Sanskrit Shloka with golden text glow -->
+                    <div class="shloka-box animate-shloka">
+                        <p class="sanskrit-shloka">
+                            वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br> निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
+                        </p>
+                        <p class="shloka-meaning">
+                            हे विशाल देह, करोड़ों सूर्यों के समान तेजस्वी, वक्र सूंड वाले श्री गणेश!<br> हमारे इस पावन मांगलिक कार्य को सदैव निर्विघ्न संपन्न करें।
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-      <!-- ================= SCENE 3: विवाह की रस्मों का सिनेमैटिक सफर ================= -->
-      <section class="film-scene scene-3" id="scene3" data-scene="3" data-duration="15">
-        <div class="scene-backdrop scene-3-bg">
-          <img src="assets/images/rituals.jpg" alt="मांगलिक रस्में" class="rituals-bg-img">
-        </div>
-        <div class="dark-gradient-overlay"></div>
+            <!-- ================= SCENE 2: दो परिवारों का मिलन ================= -->
+            <section class="film-scene scene-2" id="scene2" data-scene="2" data-duration="14">
+                <div class="scene-backdrop scene-2-bg">
+                    <img src="assets/images/palace_gate.jpg" alt="शाही राजमहल प्रवेश द्वार" class="palace-bg-img">
+                </div>
+                <div class="palace-gate-overlay">
+                    <!-- 3D Opening Royal Golden Gates -->
+                    <div class="royal-gate-door gate-left"></div>
+                    <div class="royal-gate-door gate-right"></div>
+                </div>
 
-        <div class="scene-content scene-3-content">
-          <div class="scene-title-badge">
-            <span class="kalash-icon">🏺</span> मांगलिक रस्मों का उत्सव <span class="kalash-icon">🏺</span>
-          </div>
+                <div class="scene-content scene-2-content">
+                    <div class="scene-header-tag">
+                        <span class="gold-flower">❦</span> दो परिवारों का पावन मिलन <span class="gold-flower">❦</span>
+                    </div>
 
-          <div class="rituals-dynamic-grid" id="ritualsGrid">
-            
-            <!-- Ritual 1: 7 दिसंबर मिट्टी -->
-            <div class="ritual-cinema-card ritual-card-1" data-ritual="1">
-              <div class="card-date-badge">7 दिसंबर</div>
-              <div class="ritual-icon-ring">🌱</div>
-              <h3 class="ritual-title">मिट्टी की रस्म</h3>
-              <div class="ritual-time">प्रातः 7:30 – 8:30 बजे</div>
-              <p class="ritual-desc">पारंपरिक कुल-परंपरानुसार मिट्टी, मंगल कलश एवं शुभ गीतों के साथ विवाह की शुरुआत।</p>
-            </div>
+                    <div class="couple-announcement-card royal-frame">
+                        <div class="jharokha-arch-decor"></div>
 
-            <!-- Ritual 2: 8 दिसंबर माता व गणेश पूजन -->
-            <div class="ritual-cinema-card ritual-card-2" data-ritual="2">
-              <div class="card-date-badge">8 दिसंबर</div>
-              <div class="ritual-icon-ring">🪔</div>
-              <h3 class="ritual-title">माता पूजन एवं गणेश पूजन</h3>
-              <div class="ritual-time">
-                <span>माता पूजन: सायं 4:00 बजे</span>
-                <span class="sub-sep">|</span>
-                <span>गणेश पूजन: सायं 7:00 बजे</span>
-              </div>
-              <p class="ritual-desc">कुलदेवी एवं विघ्नहर्ता श्री गणेश जी की विशेष अर्चना व दीप प्रज्वलन।</p>
-            </div>
+                        <div class="groom-section">
+                            <span class="relation-prefix">चिरंजीव</span>
+                            <h2 class="person-name groom-name">शशांक</h2>
+                            <p class="parents-line">
+                                सुपुत्र: <strong>श्रीमती ज्ञानेश्वरी जी</strong> एवं <strong>श्री प्रवीणजी गुर्जर</strong>
+                            </p>
+                        </div>
 
-            <!-- Ritual 3: 9 दिसंबर मंडप, हल्दी, सगाई, संगीत -->
-            <div class="ritual-cinema-card ritual-card-3" data-ritual="3">
-              <div class="card-date-badge">9 दिसंबर</div>
-              <div class="ritual-icon-ring">🌼</div>
-              <h3 class="ritual-title">मंडप • हल्दी • सगाई • महिला संगीत</h3>
-              <div class="ritual-time">
-                <span>मंडप: प्रातः 7:30 बजे</span> &bull; 
-                <span>हल्दी: अपराह्न 3:00 बजे</span> &bull; 
-                <span>सगाई: सायं 4:30 बजे तत्पश्चात महिला संगीत</span>
-              </div>
-              <p class="ritual-desc">उल्लास, सुरमयी संगीत, पीली हल्दी की बहार एवं मधुर पारिवारिक नृत्य।</p>
-            </div>
+                        <div class="sang-emblem">
+                            <div class="emblem-circle">
+                                <span class="sang-text">संग</span>
+                            </div>
+                        </div>
 
-            <!-- Ritual 4: 10 दिसंबर विवाह दिवस -->
-            <div class="ritual-cinema-card ritual-card-4 highlight-wedding" data-ritual="4">
-              <div class="card-date-badge wedding-day-tag">10 दिसंबर — विवाह दिवस</div>
-              <div class="ritual-icon-ring">👑</div>
-              <h3 class="ritual-title">शुभ विवाह एवं स्वरुचि भोज</h3>
-              <div class="ritual-time">
-                <div>स्वरुचि भोज: प्रातः 10:00 बजे से अतिथियों के आगमन तक</div>
-                <div>शादी (पाणिग्रहण): अपराह्न 1:30 – 3:00 बजे</div>
-                <div>भव्य बारात: सायं 5:00 बजे (तत्पश्चात धन्यवाद एवं स्वागत समारोह)</div>
-              </div>
-              <p class="ritual-desc">अग्नि को साक्षी मानकर सात फेरे, सिंदूर दान एवं नवदम्पति का स्वागत।</p>
-            </div>
+                        <div class="bride-section">
+                            <span class="relation-prefix">आयुष्मती</span>
+                            <h2 class="person-name bride-name">अर्चना</h2>
+                            <p class="parents-line">
+                                सुपुत्री: <strong>श्रीमती बबीताजी पाण्डेय</strong> एवं <strong>श्री कृष्ण कुमार जी पाण्डेय</strong>
+                            </p>
+                        </div>
 
-          </div>
-        </div>
-      </section>
+                        <div class="wedding-date-strip">
+                            <span class="cal-icon">🗓️</span>
+                            <span class="date-text">विवाह तिथि: <strong>10 दिसंबर</strong></span>
+                            <span class="dot-sep">&bull;</span>
+                            <span class="venue-brief">KRB, Kadola, Harda</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-      <!-- ================= SCENE 4: शाही विवाह का मुख्य दृश्य ================= -->
-      <section class="film-scene scene-4" id="scene4" data-scene="4" data-duration="14">
-        <div class="scene-backdrop scene-4-bg">
-          <img src="assets/images/mandap.jpg" alt="शाही विवाह मंडप" class="mandap-bg-img">
-        </div>
-        <div class="mandap-illumination-overlay"></div>
+            <!-- ================= SCENE 3: विवाह की रस्मों का सिनेमैटिक सफर ================= -->
+            <section class="film-scene scene-3" id="scene3" data-scene="3" data-duration="15">
+                <div class="scene-backdrop scene-3-bg">
+                    <img src="assets/images/rituals.jpg" alt="मांगलिक रस्में" class="rituals-bg-img">
+                </div>
+                <div class="dark-gradient-overlay"></div>
 
-        <div class="scene-content scene-4-content">
-          <div class="mandap-frame-box royal-frame">
-            <div class="havan-spark-effect"></div>
-            <div class="shubh-vivah-ribbon">
-              <span>॥ पाणिग्रहण संस्कार ॥</span>
-            </div>
+                <div class="scene-content scene-3-content">
+                    <div class="scene-title-badge">
+                        <span class="kalash-icon">🏺</span> मांगलिक रस्मों का उत्सव <span class="kalash-icon">🏺</span>
+                    </div>
 
-            <h2 class="scene-4-headline">
-              “दो परिवारों का पावन मिलन,<br>
-              प्रेम, विश्वास और नए जीवन का शुभारंभ।”
-            </h2>
+                    <div class="rituals-dynamic-grid" id="ritualsGrid">
 
-            <div class="mandap-vows-summary">
-              <p class="vows-sanskrit">
-                गृभ्णामि ते सौभगत्वाय हस्तं मया पत्या जरदष्टिर्यथासः।<br>
-                भगो अर्यमा सविता पुरंधिर्मह्यं त्वादुर्गार्हपत्याय देवाः॥
-              </p>
-              <p class="mandap-details">
-                सात जन्मों का पवित्र बंधन, वैदिक मंत्रोच्चार, सुवासित पुष्पवृष्टि और बड़ों के मंगल आशीर्वाद से सुशोभित।
-              </p>
-            </div>
+                        <!-- Ritual 1: 7 दिसंबर मिट्टी -->
+                        <div class="ritual-cinema-card ritual-card-1" data-ritual="1">
+                            <div class="card-date-badge">7 दिसंबर</div>
+                            <div class="ritual-icon-ring">🌱</div>
+                            <h3 class="ritual-title">मिट्टी की रस्म</h3>
+                            <div class="ritual-time">प्रातः 7:30 – 8:30 बजे</div>
+                            <p class="ritual-desc">पारंपरिक कुल-परंपरानुसार मिट्टी, मंगल कलश एवं शुभ गीतों के साथ विवाह की शुरुआत।</p>
+                        </div>
 
-            <div class="mandap-venue-highlight">
-              <span class="pin-icon">📍</span>
-              <strong>स्थल:</strong> KRB, Kadola, Harda
-            </div>
-          </div>
-        </div>
-      </section>
+                        <!-- Ritual 2: 8 दिसंबर माता व गणेश पूजन -->
+                        <div class="ritual-cinema-card ritual-card-2" data-ritual="2">
+                            <div class="card-date-badge">8 दिसंबर</div>
+                            <div class="ritual-icon-ring">🪔</div>
+                            <h3 class="ritual-title">माता पूजन एवं गणेश पूजन</h3>
+                            <div class="ritual-time">
+                                <span>माता पूजन: सायं 4:00 बजे</span>
+                                <span class="sub-sep">|</span>
+                                <span>गणेश पूजन: सायं 7:00 बजे</span>
+                            </div>
+                            <p class="ritual-desc">कुलदेवी एवं विघ्नहर्ता श्री गणेश जी की विशेष अर्चना व दीप प्रज्वलन।</p>
+                        </div>
 
-      <!-- ================= SCENE 5: भावपूर्ण समापन — आपका आशीर्वाद अनमोल है ================= -->
-      <section class="film-scene scene-5" id="scene5" data-scene="5" data-duration="15">
-        <div class="scene-backdrop scene-5-bg">
-          <img src="assets/images/royal_pattern.jpg" alt="शाही पृष्ठभूमि" class="closing-pattern-bg">
-        </div>
-        <div class="closing-vignette"></div>
+                        <!-- Ritual 3: 9 दिसंबर मंडप, हल्दी, सगाई, संगीत -->
+                        <div class="ritual-cinema-card ritual-card-3" data-ritual="3">
+                            <div class="card-date-badge">9 दिसंबर</div>
+                            <div class="ritual-icon-ring">🌼</div>
+                            <h3 class="ritual-title">मंडप • हल्दी • सगाई • महिला संगीत</h3>
+                            <div class="ritual-time">
+                                <span>मंडप: प्रातः 7:30 बजे</span> &bull;
+                                <span>हल्दी: अपराह्न 3:00 बजे</span> &bull;
+                                <span>सगाई: सायं 4:30 बजे तत्पश्चात महिला संगीत</span>
+                            </div>
+                            <p class="ritual-desc">उल्लास, सुरमयी संगीत, पीली हल्दी की बहार एवं मधुर पारिवारिक नृत्य।</p>
+                        </div>
 
-        <div class="scene-content scene-5-content">
-          <div class="closing-card royal-frame">
-            <div class="closing-names">
-              <span class="names-tag">शशांक एवं अर्चना</span>
-            </div>
+                        <!-- Ritual 4: 10 दिसंबर विवाह दिवस -->
+                        <div class="ritual-cinema-card ritual-card-4 highlight-wedding" data-ritual="4">
+                            <div class="card-date-badge wedding-day-tag">10 दिसंबर — विवाह दिवस</div>
+                            <div class="ritual-icon-ring">👑</div>
+                            <h3 class="ritual-title">शुभ विवाह एवं स्वरुचि भोज</h3>
+                            <div class="ritual-time">
+                                <div>स्वरुचि भोज: प्रातः 10:00 बजे से अतिथियों के आगमन तक</div>
+                                <div>शादी (पाणिग्रहण): अपराह्न 1:30 – 3:00 बजे</div>
+                                <div>भव्य बारात: सायं 5:00 बजे (तत्पश्चात धन्यवाद एवं स्वागत समारोह)</div>
+                            </div>
+                            <p class="ritual-desc">अग्नि को साक्षी मानकर सात फेरे, सिंदूर दान एवं नवदम्पति का स्वागत।</p>
+                        </div>
 
-            <div class="quote-container">
-              <blockquote class="grand-quote">
-                “आपकी उपस्थिति हमारे लिए सम्मान,<br>
-                आपका स्नेह हमारी खुशी,<br>
-                और आपका आशीर्वाद हमारा सबसे अनमोल उपहार है।”
-              </blockquote>
-            </div>
+                    </div>
+                </div>
+            </section>
 
-            <!-- Humble Apology for Digital Invitation -->
-            <div class="humble-apology-box">
-              <p class="apology-text">
-                यदि यह निमंत्रण आप तक डिजिटल माध्यम से पहुँचा है और हम व्यक्तिगत रूप से आपके घर आकर निमंत्रण नहीं दे पाए, तो कृपया हमारी इस त्रुटि को क्षमा करें। आप हमारे अपने हैं और आपका स्नेह हमारे लिए अत्यंत मूल्यवान है। कृपया पधारकर नवयुगल को अपना आशीर्वाद प्रदान करें।
-              </p>
-            </div>
+            <!-- ================= SCENE 4: शाही विवाह का मुख्य दृश्य ================= -->
+            <section class="film-scene scene-4" id="scene4" data-scene="4" data-duration="14">
+                <div class="scene-backdrop scene-4-bg">
+                    <img src="assets/images/mandap.jpg" alt="शाही विवाह मंडप" class="mandap-bg-img">
+                </div>
+                <div class="mandap-illumination-overlay"></div>
 
-            <div class="closing-inviters">
-              <div class="inviters-title">सादर आमंत्रित</div>
-              <div class="inviters-families">गुर्जर एवं पाण्डेय परिवार</div>
-              <div class="subh-vivah-final">॥ शुभ विवाह ॥</div>
-            </div>
+                <div class="scene-content scene-4-content">
+                    <div class="mandap-frame-box royal-frame">
+                        <div class="havan-spark-effect"></div>
+                        <div class="shubh-vivah-ribbon">
+                            <span>॥ पाणिग्रहण संस्कार ॥</span>
+                        </div>
 
-            <div class="closing-actions-row">
-              <button id="btnOpenBookletFromFilm" class="btn-royal primary-btn">
+                        <h2 class="scene-4-headline">
+                            “दो परिवारों का पावन मिलन,<br> प्रेम, विश्वास और नए जीवन का शुभारंभ।”
+                        </h2>
+
+                        <div class="mandap-vows-summary">
+                            <p class="vows-sanskrit">
+                                गृभ्णामि ते सौभगत्वाय हस्तं मया पत्या जरदष्टिर्यथासः।<br> भगो अर्यमा सविता पुरंधिर्मह्यं त्वादुर्गार्हपत्याय देवाः॥
+                            </p>
+                            <p class="mandap-details">
+                                सात जन्मों का पवित्र बंधन, वैदिक मंत्रोच्चार, सुवासित पुष्पवृष्टि और बड़ों के मंगल आशीर्वाद से सुशोभित।
+                            </p>
+                        </div>
+
+                        <div class="mandap-venue-highlight">
+                            <span class="pin-icon">📍</span>
+                            <strong>स्थल:</strong> KRB, Kadola, Harda
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= SCENE 5: भावपूर्ण समापन — आपका आशीर्वाद अनमोल है ================= -->
+            <section class="film-scene scene-5" id="scene5" data-scene="5" data-duration="15">
+                <div class="scene-backdrop scene-5-bg">
+                    <img src="assets/images/royal_pattern.jpg" alt="शाही पृष्ठभूमि" class="closing-pattern-bg">
+                </div>
+                <div class="closing-vignette"></div>
+
+                <div class="scene-content scene-5-content">
+                    <div class="closing-card royal-frame">
+                        <div class="closing-names">
+                            <span class="names-tag">शशांक एवं अर्चना</span>
+                        </div>
+
+                        <div class="quote-container">
+                            <blockquote class="grand-quote">
+                                “आपकी उपस्थिति हमारे लिए सम्मान,<br> आपका स्नेह हमारी खुशी,<br> और आपका आशीर्वाद हमारा सबसे अनमोल उपहार है।”
+                            </blockquote>
+                        </div>
+
+                        <!-- Humble Apology for Digital Invitation -->
+                        <div class="humble-apology-box">
+                            <p class="apology-text">
+                                यदि यह निमंत्रण आप तक डिजिटल माध्यम से पहुँचा है और हम व्यक्तिगत रूप से आपके घर आकर निमंत्रण नहीं दे पाए, तो कृपया हमारी इस त्रुटि को क्षमा करें। आप हमारे अपने हैं और आपका स्नेह हमारे लिए अत्यंत मूल्यवान है। कृपया पधारकर नवयुगल को अपना आशीर्वाद प्रदान
+                                करें।
+                            </p>
+                        </div>
+
+                        <div class="closing-inviters">
+                            <div class="inviters-title">सादर आमंत्रित</div>
+                            <div class="inviters-families">वर एवं वधू परिवार</div>
+                            <div class="inviters-sub">आपकी गरिमामयी उपस्थिति एवं आशीर्वाद के अभिलाषी</div>
+                            <div class="subh-vivah-final">॥ शुभ विवाह ॥</div>
+                        </div>
+
+                        <div class="closing-actions-row">
+                            <button id="btnOpenBookletFromFilm" class="btn-royal primary-btn">
                 📖 पूरी शाही पत्रिका पढ़ें
               </button>
-              <button id="btnReplayFilm" class="btn-royal secondary-btn">
+                            <button id="btnReplayFilm" class="btn-royal secondary-btn">
                 🔄 पुनः देखें (Replay)
               </button>
-              <button id="btnRecordVideo" class="btn-royal gold-accent-btn" title="वीडियो फाइल के रूप में सेव करें">
+                            <button id="btnRecordVideo" class="btn-royal gold-accent-btn" title="वीडियो फाइल के रूप में सेव करें">
                 📥 वीडियो डाउनलोड करें
               </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Cinematic Film Bottom Control Bar -->
+        <div class="film-controls-bar">
+            <!-- Time & Progress Scrubber -->
+            <div class="progress-wrap">
+                <span id="currentTimeDisplay" class="time-label">00:00</span>
+                <div class="progress-bar-container" id="progressBarContainer">
+                    <div class="progress-bar-fill" id="progressBarFill"></div>
+                    <div class="progress-thumb" id="progressThumb"></div>
+                </div>
+                <span id="totalTimeDisplay" class="time-label">01:05</span>
             </div>
-          </div>
-        </div>
-      </section>
 
-    </div>
-
-    <!-- Cinematic Film Bottom Control Bar -->
-    <div class="film-controls-bar">
-      <!-- Time & Progress Scrubber -->
-      <div class="progress-wrap">
-        <span id="currentTimeDisplay" class="time-label">00:00</span>
-        <div class="progress-bar-container" id="progressBarContainer">
-          <div class="progress-bar-fill" id="progressBarFill"></div>
-          <div class="progress-thumb" id="progressThumb"></div>
-        </div>
-        <span id="totalTimeDisplay" class="time-label">01:05</span>
-      </div>
-
-      <!-- Playback Controls & Scene Jumpers -->
-      <div class="controls-row">
-        <div class="playback-buttons">
-          <button id="btnFilmPlayPause" class="film-ctrl-btn" title="प्ले / पॉज" aria-label="प्ले पॉज">
+            <!-- Playback Controls & Scene Jumpers -->
+            <div class="controls-row">
+                <div class="playback-buttons">
+                    <button id="btnFilmPlayPause" class="film-ctrl-btn" title="प्ले / पॉज" aria-label="प्ले पॉज">
             <span id="filmPlayPauseIcon">⏸️</span>
           </button>
-          <button id="btnFilmRestart" class="film-ctrl-btn" title="शुरू से चलाएं" aria-label="पुनः प्रारंभ">
+                    <button id="btnFilmRestart" class="film-ctrl-btn" title="शुरू से चलाएं" aria-label="पुनः प्रारंभ">
             <span>⏮️</span>
           </button>
-        </div>
+                </div>
 
-        <!-- Scene Pills Navigation -->
-        <div class="scene-pills" role="navigation" aria-label="सीन चयन">
-          <button class="scene-pill active" data-jump-scene="1">१. गणेश वंदना</button>
-          <button class="scene-pill" data-jump-scene="2">२. वर-वधू परिचय</button>
-          <button class="scene-pill" data-jump-scene="3">३. रस्मों का सफर</button>
-          <button class="scene-pill" data-jump-scene="4">४. शाही मंडप</button>
-          <button class="scene-pill" data-jump-scene="5">५. मंगल आशीर्वाद</button>
-        </div>
+                <!-- Scene Pills Navigation -->
+                <div class="scene-pills" role="navigation" aria-label="सीन चयन">
+                    <button class="scene-pill active" data-jump-scene="1">१. गणेश वंदना</button>
+                    <button class="scene-pill" data-jump-scene="2">२. वर-वधू परिचय</button>
+                    <button class="scene-pill" data-jump-scene="3">३. रस्मों का सफर</button>
+                    <button class="scene-pill" data-jump-scene="4">४. शाही मंडप</button>
+                    <button class="scene-pill" data-jump-scene="5">५. मंगल आशीर्वाद</button>
+                </div>
 
-        <div class="controls-right">
-          <button id="btnSkipToBooklet" class="skip-btn" title="पत्रिका पर जाएं">
+                <div class="controls-right">
+                    <button id="btnSkipToBooklet" class="skip-btn" title="पत्रिका पर जाएं">
             पत्रिका देखें ➔
           </button>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </main>
+    </main>
 
 
-  <!-- ========================================================================= -->
-  <!-- 2. ROYAL 3D INTERACTIVE BOOKLET CONTAINER                                 -->
-  <!-- ========================================================================= -->
-  <section id="bookletContainer" class="booklet-container hidden">
-    
-    <div class="booklet-wrapper">
-      
-      <!-- Booklet Navigation Arrows (Desktop & Tablet) -->
-      <button id="btnPrevPage" class="booklet-nav-btn prev-btn" aria-label="पिछला पृष्ठ">
+    <!-- ========================================================================= -->
+    <!-- 2. ROYAL 3D INTERACTIVE BOOKLET CONTAINER                                 -->
+    <!-- ========================================================================= -->
+    <section id="bookletContainer" class="booklet-container hidden">
+
+        <div class="booklet-wrapper">
+
+            <!-- Booklet Navigation Arrows (Desktop & Tablet) -->
+            <button id="btnPrevPage" class="booklet-nav-btn prev-btn" aria-label="पिछला पृष्ठ">
         <span>❮</span>
       </button>
 
-      <!-- The 3D Book Stage -->
-      <div class="book-stage" id="bookStage">
-        <div class="book-3d" id="book3D">
+            <!-- The 3D Book Stage -->
+            <div class="book-stage" id="bookStage">
+                <div class="book-3d" id="book3D">
 
-          <!-- PAGE 1: Royal Velvet Cover -->
-          <article class="book-page page-1 cover-page active" data-page="1">
-            <div class="page-inner royal-frame">
-              <div class="corner-filigree top-left"></div>
-              <div class="corner-filigree top-right"></div>
-              <div class="corner-filigree bottom-left"></div>
-              <div class="corner-filigree bottom-right"></div>
+                    <!-- PAGE 1: Royal Velvet Cover -->
+                    <article class="book-page page-1 cover-page active" data-page="1">
+                        <div class="page-inner royal-frame">
+                            <div class="corner-filigree top-left"></div>
+                            <div class="corner-filigree top-right"></div>
+                            <div class="corner-filigree bottom-left"></div>
+                            <div class="corner-filigree bottom-right"></div>
 
-              <div class="cover-header">
-                <span class="sacred-om">ॐ</span>
-                <div class="cover-shlok">॥ श्री गणेशाय नमः ॥</div>
-              </div>
+                            <div class="cover-header">
+                                <span class="sacred-om">ॐ</span>
+                                <div class="cover-shlok">॥ श्री गणेशाय नमः ॥</div>
+                            </div>
 
-              <div class="cover-ganesha-badge">
-                <img src="assets/images/ganesha.jpg" alt="श्री गणेश" class="cover-ganesha-thumbnail">
-              </div>
+                            <div class="cover-ganesha-badge">
+                                <img src="assets/images/ganesha.jpg" alt="श्री गणेश" class="cover-ganesha-thumbnail">
+                            </div>
 
-              <div class="cover-title-group">
-                <span class="cover-badge">शाही विवाह निमंत्रण पत्र</span>
-                <h1 class="cover-couple">
-                  <span>शशांक</span>
-                  <span class="cover-sang">संग</span>
-                  <span>अर्चना</span>
-                </h1>
-                <div class="cover-ornament">❧ ❦ ☙</div>
-              </div>
+                            <div class="cover-title-group">
+                                <span class="cover-badge">शाही विवाह निमंत्रण पत्र</span>
+                                <h1 class="cover-couple">
+                                    <span>शशांक</span>
+                                    <span class="cover-sang">संग</span>
+                                    <span>अर्चना</span>
+                                </h1>
+                                <div class="cover-ornament">❧ ❦ ☙</div>
+                            </div>
 
-              <div class="cover-date-venue">
-                <div class="cover-date">शुभ विवाह तिथि: <strong>10 दिसंबर</strong></div>
-                <div class="cover-venue">स्थल: KRB, Kadola, Harda</div>
-              </div>
+                            <div class="cover-date-venue">
+                                <div class="cover-date">शुभ विवाह तिथि: <strong>10 दिसंबर</strong></div>
+                                <div class="cover-venue">स्थल: KRB, Kadola, Harda</div>
+                            </div>
 
-              <div class="cover-footer-note">
-                <p>“मांगलिक बेला पर आपका स्नेह एवं आशीर्वाद सादर प्रार्थनीय है”</p>
-                <div class="flip-instruction">
-                  <span>पन्ना पलटने के लिए स्वाइप करें अथवा अगला बटन दबाएँ ➔</span>
-                </div>
-              </div>
-            </div>
-          </article>
+                            <div class="cover-footer-note">
+                                <p>“मांगलिक बेला पर आपका स्नेह एवं आशीर्वाद सादर प्रार्थनीय है”</p>
+                                <div class="flip-instruction">
+                                    <span>पन्ना पलटने के लिए स्वाइप करें अथवा अगला बटन दबाएँ ➔</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
 
-          <!-- PAGE 2: गणेश वंदना एवं कुलदेवता स्मरण -->
-          <article class="book-page page-2" data-page="2">
-            <div class="page-inner royal-frame">
-              <div class="page-number-tag">पृष्ठ २</div>
-              <div class="inner-header">
-                <div class="sub-ganesh">॥ श्री गणेशाय नमः ॥</div>
-                <h2 class="inner-page-title">मंगलम भगवान विष्णुः</h2>
-              </div>
+                    <!-- PAGE 2: गणेश वंदना एवं कुलदेवता स्मरण -->
+                    <article class="book-page page-2" data-page="2">
+                        <div class="page-inner royal-frame">
+                            <div class="page-number-tag">पृष्ठ २</div>
+                            <div class="inner-header">
+                                <div class="sub-ganesh">॥ श्री गणेशाय नमः ॥</div>
+                                <h2 class="inner-page-title">मंगलम भगवान विष्णुः</h2>
+                            </div>
 
-              <div class="page-image-card">
-                <img src="assets/images/ganesha.jpg" alt="विघ्नहर्ता गणेश" class="page-art-img">
-              </div>
+                            <div class="page-image-card">
+                                <img src="assets/images/ganesha.jpg" alt="विघ्नहर्ता गणेश" class="page-art-img">
+                            </div>
 
-              <div class="shloka-parchment">
-                <p class="sacred-verse">
-                  वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br>
-                  निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
-                </p>
-                <div class="verse-divider">✦ ✦ ✦</div>
-                <p class="sacred-verse">
-                  मंगलम् भगवान विष्णुः मंगलम् गरुड़ध्वजः।<br>
-                  मंगलम् पुण्डरीकाक्षः मंगलाय तनो हरिः॥
-                </p>
-              </div>
+                            <div class="shloka-parchment">
+                                <p class="sacred-verse">
+                                    वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br> निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
+                                </p>
+                                <div class="verse-divider">✦ ✦ ✦</div>
+                                <p class="sacred-verse">
+                                    मंगलम् भगवान विष्णुः मंगलम् गरुड़ध्वजः।<br> मंगलम् पुण्डरीकाक्षः मंगलाय तनो हरिः॥
+                                </p>
+                            </div>
 
-              <div class="page-text-message">
-                <p>
-                  परमपिता परमात्मा एवं कुलदेवी के असीम आशीर्वाद से हमारे परिवार के प्रिय चि. शशांक एवं आयु. अर्चना का पावन परिणय संस्कार तय हुआ है। इस मांगलिक अवसर पर आपका स्नेहिल सान्निध्य हमारी खुशियों को द्विगुणित करेगा।
-                </p>
-              </div>
-            </div>
-          </article>
+                            <div class="page-text-message">
+                                <p>
+                                    परमपिता परमात्मा एवं कुलदेवी के असीम आशीर्वाद से हमारे परिवार के प्रिय चि. शशांक एवं आयु. अर्चना का पावन परिणय संस्कार तय हुआ है। इस मांगलिक अवसर पर आपका स्नेहिल सान्निध्य हमारी खुशियों को द्विगुणित करेगा।
+                                </p>
+                            </div>
+                        </div>
+                    </article>
 
-          <!-- PAGE 3: वर-वधू एवं परिवार परिचय -->
-          <article class="book-page page-3" data-page="3">
-            <div class="page-inner royal-frame">
-              <div class="page-number-tag">पृष्ठ ३</div>
-              <div class="inner-header">
-                <div class="sub-ganesh">॥ शुभ विवाह ॥</div>
-                <h2 class="inner-page-title">वर-वधू एवं परिवार</h2>
-              </div>
+                    <!-- PAGE 3: वर-वधू एवं परिवार परिचय -->
+                    <article class="book-page page-3" data-page="3">
+                        <div class="page-inner royal-frame">
+                            <div class="page-number-tag">पृष्ठ ३</div>
+                            <div class="inner-header">
+                                <div class="sub-ganesh">॥ शुभ विवाह ॥</div>
+                                <h2 class="inner-page-title">वर-वधू एवं परिवार</h2>
+                            </div>
 
-              <div class="family-detail-card groom-card">
-                <div class="family-tag">वर पक्ष (Groom)</div>
-                <h3 class="member-name">चि. शशांक गुर्जर</h3>
-                <div class="parents-box">
-                  <div class="parent-entry">
-                    <span class="relation">पिता:</span> <strong>श्री प्रवीणजी गुर्जर</strong>
-                  </div>
-                  <div class="parent-entry">
-                    <span class="relation">माता:</span> <strong>श्रीमती ज्ञानेश्वरी जी गुर्जर</strong>
-                  </div>
-                </div>
-              </div>
+                            <div class="family-detail-card groom-card">
+                                <div class="family-tag">वर पक्ष (Groom)</div>
+                                <h3 class="member-name">चि. शशांक</h3>
+                                <div class="parents-box">
+                                    <div class="parent-entry">
+                                        <span class="relation">पिता:</span> <strong>श्री प्रवीणजी गुर्जर</strong>
+                                    </div>
+                                    <div class="parent-entry">
+                                        <span class="relation">माता:</span> <strong>श्रीमती ज्ञानेश्वरी जी गुर्जर</strong>
+                                    </div>
+                                </div>
+                            </div>
 
-              <div class="sang-middle-divider">
-                <span class="ring-icon">💍</span>
-                <span class="sang-word">परिणय सूत्र</span>
-                <span class="ring-icon">💍</span>
-              </div>
+                            <div class="sang-middle-divider">
+                                <span class="ring-icon">💍</span>
+                                <span class="sang-word">परिणय सूत्र</span>
+                                <span class="ring-icon">💍</span>
+                            </div>
 
-              <div class="family-detail-card bride-card">
-                <div class="family-tag">वधू पक्ष (Bride)</div>
-                <h3 class="member-name">आयु. अर्चना पाण्डेय</h3>
-                <div class="parents-box">
-                  <div class="parent-entry">
-                    <span class="relation">पिता:</span> <strong>श्री कृष्ण कुमार जी पाण्डेय</strong>
-                  </div>
-                  <div class="parent-entry">
-                    <span class="relation">माता:</span> <strong>श्रीमती बाबिताजी पाण्डेय</strong>
-                  </div>
-                </div>
-              </div>
+                            <div class="family-detail-card bride-card">
+                                <div class="family-tag">वधू पक्ष (Bride)</div>
+                                <h3 class="member-name">आयु. अर्चना</h3>
+                                <div class="parents-box">
+                                    <div class="parent-entry">
+                                        <span class="relation">पिता:</span> <strong>श्री कृष्ण कुमार जी पाण्डेय</strong>
+                                    </div>
+                                    <div class="parent-entry">
+                                        <span class="relation">माता:</span> <strong>श्रीमती बबीताजी पाण्डेय</strong>
+                                    </div>
+                                </div>
+                            </div>
 
-              <div class="family-blessing-note">
-                <p>“दो कुलों की मर्यादा, दो हृदयों का समर्पण और एक नए गृहस्थ जीवन का शुभारंभ।”</p>
-              </div>
-            </div>
-          </article>
+                            <div class="family-blessing-note">
+                                <p>“दो कुलों की मर्यादा, दो हृदयों का समर्पण और एक नए गृहस्थ जीवन का शुभारंभ।”</p>
+                            </div>
+                        </div>
+                    </article>
 
-          <!-- PAGE 4: कार्यक्रम दिवस १ एवं २ (7 व 8 दिसंबर) -->
-          <article class="book-page page-4" data-page="4">
-            <div class="page-inner royal-frame">
-              <div class="page-number-tag">पृष्ठ ४</div>
-              <div class="inner-header">
-                <div class="sub-ganesh">॥ मांगलिक कार्यक्रम ॥</div>
-                <h2 class="inner-page-title">कार्यक्रम — दिवस १ एवं २</h2>
-              </div>
+                    <!-- PAGE 4: कार्यक्रम दिवस १ एवं २ (7 व 8 दिसंबर) -->
+                    <article class="book-page page-4" data-page="4">
+                        <div class="page-inner royal-frame">
+                            <div class="page-number-tag">पृष्ठ ४</div>
+                            <div class="inner-header">
+                                <div class="sub-ganesh">॥ मांगलिक कार्यक्रम ॥</div>
+                                <h2 class="inner-page-title">कार्यक्रम — दिवस १ एवं २</h2>
+                            </div>
 
-              <div class="events-timeline">
-                
-                <!-- Day 1: 7 दिसंबर -->
-                <div class="timeline-event-card">
-                  <div class="event-header-row">
-                    <span class="event-calendar-badge">७ दिसंबर</span>
-                    <span class="event-name-title">मिट्टी की रस्म</span>
-                  </div>
-                  <div class="event-timing-row">
-                    <span class="clock-icon">⏰</span>
-                    <span class="event-time-val">प्रातः 7:30 – 8:30 बजे</span>
-                  </div>
-                  <p class="event-detail-p">
-                    पारंपरिक रीति-रिवाजों के अनुसार पूज्य मातृ-शक्तियों द्वारा मिट्टी व कलश स्थापना की पावन रस्म।
-                  </p>
-                </div>
+                            <div class="events-timeline">
 
-                <!-- Day 2: 8 दिसंबर -->
-                <div class="timeline-event-card">
-                  <div class="event-header-row">
-                    <span class="event-calendar-badge">८ दिसंबर</span>
-                    <span class="event-name-title">माता पूजन एवं गणेश पूजन</span>
-                  </div>
-                  <div class="event-timing-row">
-                    <div class="split-time-item">
-                      <span class="clock-icon">⏰</span>
-                      <span><strong>माता पूजन:</strong> सायं 4:00 बजे</span>
-                    </div>
-                    <div class="split-time-item">
-                      <span class="clock-icon">⏰</span>
-                      <span><strong>गणेश पूजन:</strong> सायं 7:00 बजे</span>
-                    </div>
-                  </div>
-                  <p class="event-detail-p">
-                    कुलदेवी पूजन, सुख-समृद्धि की मंगल कामना तथा विघ्नहर्ता गणेश जी की महाआरती।
-                  </p>
-                </div>
+                                <!-- Day 1: 7 दिसंबर -->
+                                <div class="timeline-event-card">
+                                    <div class="event-header-row">
+                                        <span class="event-calendar-badge">७ दिसंबर</span>
+                                        <span class="event-name-title">मिट्टी की रस्म</span>
+                                    </div>
+                                    <div class="event-timing-row">
+                                        <span class="clock-icon">⏰</span>
+                                        <span class="event-time-val">प्रातः 7:30 – 8:30 बजे</span>
+                                    </div>
+                                    <p class="event-detail-p">
+                                        पारंपरिक रीति-रिवाजों के अनुसार पूज्य मातृ-शक्तियों द्वारा मिट्टी व कलश स्थापना की पावन रस्म।
+                                    </p>
+                                </div>
 
-              </div>
+                                <!-- Day 2: 8 दिसंबर -->
+                                <div class="timeline-event-card">
+                                    <div class="event-header-row">
+                                        <span class="event-calendar-badge">८ दिसंबर</span>
+                                        <span class="event-name-title">माता पूजन एवं गणेश पूजन</span>
+                                    </div>
+                                    <div class="event-timing-row">
+                                        <div class="split-time-item">
+                                            <span class="clock-icon">⏰</span>
+                                            <span><strong>माता पूजन:</strong> सायं 4:00 बजे</span>
+                                        </div>
+                                        <div class="split-time-item">
+                                            <span class="clock-icon">⏰</span>
+                                            <span><strong>गणेश पूजन:</strong> सायं 7:00 बजे</span>
+                                        </div>
+                                    </div>
+                                    <p class="event-detail-p">
+                                        कुलदेवी पूजन, सुख-समृद्धि की मंगल कामना तथा विघ्नहर्ता गणेश जी की महाआरती।
+                                    </p>
+                                </div>
 
-              <div class="page-mini-banner">
-                <img src="assets/images/rituals.jpg" alt="मांगलिक रस्म" class="mini-rituals-img">
-              </div>
-            </div>
-          </article>
+                            </div>
 
-          <!-- PAGE 5: कार्यक्रम दिवस ३ (9 दिसंबर) -->
-          <article class="book-page page-5" data-page="5">
-            <div class="page-inner royal-frame">
-              <div class="page-number-tag">पृष्ठ ५</div>
-              <div class="inner-header">
-                <div class="sub-ganesh">॥ मांगलिक कार्यक्रम ॥</div>
-                <h2 class="inner-page-title">कार्यक्रम — दिवस ३ (९ दिसंबर)</h2>
-              </div>
+                            <div class="page-mini-banner">
+                                <img src="assets/images/rituals.jpg" alt="मांगलिक रस्म" class="mini-rituals-img">
+                            </div>
+                        </div>
+                    </article>
 
-              <div class="day3-events-grid">
-                
-                <div class="day3-card">
-                  <div class="d3-icon">🌿</div>
-                  <div class="d3-content">
-                    <div class="d3-title">मंडप प्रतिष्ठा</div>
-                    <div class="d3-time">प्रातः 7:30 बजे</div>
-                    <p class="d3-desc">पारंपरिक वैदिक विधि-विधान से शुभ मंडप का रोपण।</p>
-                  </div>
-                </div>
+                    <!-- PAGE 5: कार्यक्रम दिवस ३ (9 दिसंबर) -->
+                    <article class="book-page page-5" data-page="5">
+                        <div class="page-inner royal-frame">
+                            <div class="page-number-tag">पृष्ठ ५</div>
+                            <div class="inner-header">
+                                <div class="sub-ganesh">॥ मांगलिक कार्यक्रम ॥</div>
+                                <h2 class="inner-page-title">कार्यक्रम — दिवस ३ (९ दिसंबर)</h2>
+                            </div>
 
-                <div class="day3-card">
-                  <div class="d3-icon">🌻</div>
-                  <div class="d3-content">
-                    <div class="d3-title">हल्दी का उबटन</div>
-                    <div class="d3-time">अपराह्न 3:00 बजे</div>
-                    <p class="d3-desc">हल्दी के शुभ पीले रंग और सुगंधित उबटन की सुरमयी रस्म।</p>
-                  </div>
-                </div>
+                            <div class="day3-events-grid">
 
-                <div class="day3-card">
-                  <div class="d3-icon">💍</div>
-                  <div class="d3-content">
-                    <div class="d3-title">सगाई (वाग्दान)</div>
-                    <div class="d3-time">सायं 4:30 बजे</div>
-                    <p class="d3-desc">पारस्परिक वचनबद्धता एवं वर-वधू द्वारा अंगूठी विनिमय।</p>
-                  </div>
-                </div>
+                                <div class="day3-card">
+                                    <div class="d3-icon">🌿</div>
+                                    <div class="d3-content">
+                                        <div class="d3-title">मंडप प्रतिष्ठा</div>
+                                        <div class="d3-time">प्रातः 7:30 बजे</div>
+                                        <p class="d3-desc">पारंपरिक वैदिक विधि-विधान से शुभ मंडप का रोपण।</p>
+                                    </div>
+                                </div>
 
-                <div class="day3-card celebration-card">
-                  <div class="d3-icon">🪕</div>
-                  <div class="d3-content">
-                    <div class="d3-title">महिला संगीत एवं उत्सव</div>
-                    <div class="d3-time">सगाई के तत्पश्चात</div>
-                    <p class="d3-desc">ढोलक की थाप, लोकगीतों की मिठास एवं परिवार संग आनंदोत्सव।</p>
-                  </div>
-                </div>
+                                <div class="day3-card">
+                                    <div class="d3-icon">🌻</div>
+                                    <div class="d3-content">
+                                        <div class="d3-title">हल्दी का उबटन</div>
+                                        <div class="d3-time">अपराह्न 3:00 बजे</div>
+                                        <p class="d3-desc">हल्दी के शुभ पीले रंग और सुगंधित उबटन की सुरमयी रस्म।</p>
+                                    </div>
+                                </div>
 
-              </div>
-            </div>
-          </article>
+                                <div class="day3-card">
+                                    <div class="d3-icon">💍</div>
+                                    <div class="d3-content">
+                                        <div class="d3-title">सगाई (वाग्दान)</div>
+                                        <div class="d3-time">सायं 4:30 बजे</div>
+                                        <p class="d3-desc">पारस्परिक वचनबद्धता एवं वर-वधू द्वारा अंगूठी विनिमय।</p>
+                                    </div>
+                                </div>
 
-          <!-- PAGE 6: शुभ विवाह दिवस (10 दिसंबर) -->
-          <article class="book-page page-6" data-page="6">
-            <div class="page-inner royal-frame">
-              <div class="page-number-tag">पृष्ठ ६</div>
-              <div class="inner-header">
-                <div class="sub-ganesh">॥ परिणयोत्सव ॥</div>
-                <h2 class="inner-page-title">शुभ विवाह दिवस (१० दिसंबर)</h2>
-              </div>
+                                <div class="day3-card celebration-card">
+                                    <div class="d3-icon">🪕</div>
+                                    <div class="d3-content">
+                                        <div class="d3-title">महिला संगीत एवं उत्सव</div>
+                                        <div class="d3-time">सगाई के तत्पश्चात</div>
+                                        <p class="d3-desc">ढोलक की थाप, लोकगीतों की मिठास एवं परिवार संग आनंदोत्सव।</p>
+                                    </div>
+                                </div>
 
-              <div class="grand-wedding-card">
-                
-                <div class="wedding-schedule-block">
-                  <div class="sched-icon-box">🍽️</div>
-                  <div class="sched-text-box">
-                    <div class="sched-title">स्वरुचि भोज</div>
-                    <div class="sched-time">प्रातः 10:00 बजे से अतिथियों के आगमन तक</div>
-                  </div>
-                </div>
+                            </div>
+                        </div>
+                    </article>
 
-                <div class="wedding-schedule-block highlight-vivah">
-                  <div class="sched-icon-box">🔥</div>
-                  <div class="sched-text-box">
-                    <div class="sched-title">शादी (पाणिग्रहण संस्कार)</div>
-                    <div class="sched-time">अपराह्न 1:30 – 3:00 बजे</div>
-                    <p class="sched-note">अग्नि प्रदक्षिणा, सप्तपदी एवं सिंदूर दान की वैदिक रस्म</p>
-                  </div>
-                </div>
+                    <!-- PAGE 6: शुभ विवाह दिवस (10 दिसंबर) -->
+                    <article class="book-page page-6" data-page="6">
+                        <div class="page-inner royal-frame">
+                            <div class="page-number-tag">पृष्ठ ६</div>
+                            <div class="inner-header">
+                                <div class="sub-ganesh">॥ परिणयोत्सव ॥</div>
+                                <h2 class="inner-page-title">शुभ विवाह दिवस (१० दिसंबर)</h2>
+                            </div>
 
-                <div class="wedding-schedule-block">
-                  <div class="sched-icon-box">🎺</div>
-                  <div class="sched-text-box">
-                    <div class="sched-title">भव्य बारात प्रस्थान</div>
-                    <div class="sched-time">सायं 5:00 बजे</div>
-                  </div>
-                </div>
+                            <div class="grand-wedding-card">
 
-                <div class="wedding-schedule-block">
-                  <div class="sched-icon-box">💐</div>
-                  <div class="sched-text-box">
-                    <div class="sched-title">धन्यवाद एवं स्वागत समारोह</div>
-                    <div class="sched-time">बारात के तत्पश्चात</div>
-                    <p class="sched-note">आशीर्वाद एवं स्नेहमिलन</p>
-                  </div>
-                </div>
+                                <div class="wedding-schedule-block">
+                                    <div class="sched-icon-box">🍽️</div>
+                                    <div class="sched-text-box">
+                                        <div class="sched-title">स्वरुचि भोज</div>
+                                        <div class="sched-time">प्रातः 10:00 बजे से अतिथियों के आगमन तक</div>
+                                    </div>
+                                </div>
 
-              </div>
+                                <div class="wedding-schedule-block highlight-vivah">
+                                    <div class="sched-icon-box">🔥</div>
+                                    <div class="sched-text-box">
+                                        <div class="sched-title">शादी (पाणिग्रहण संस्कार)</div>
+                                        <div class="sched-time">अपराह्न 1:30 – 3:00 बजे</div>
+                                        <p class="sched-note">अग्नि प्रदक्षिणा, सप्तपदी एवं सिंदूर दान की वैदिक रस्म</p>
+                                    </div>
+                                </div>
 
-              <div class="mandap-peek-frame">
-                <img src="assets/images/mandap.jpg" alt="विवाह मंडप" class="mandap-peek-img">
-              </div>
-            </div>
-          </article>
+                                <div class="wedding-schedule-block">
+                                    <div class="sched-icon-box">🎺</div>
+                                    <div class="sched-text-box">
+                                        <div class="sched-title">भव्य बारात प्रस्थान</div>
+                                        <div class="sched-time">सायं 5:00 बजे</div>
+                                    </div>
+                                </div>
 
-          <!-- PAGE 7: स्थल विवरण एवं मार्ग (Venue & Navigation) -->
-          <article class="book-page page-7" data-page="7">
-            <div class="page-inner royal-frame">
-              <div class="page-number-tag">पृष्ठ ७</div>
-              <div class="inner-header">
-                <div class="sub-ganesh">॥ विवाह स्थल ॥</div>
-                <h2 class="inner-page-title">शुभ विवाह स्थल एवं दिशा-निर्देश</h2>
-              </div>
+                                <div class="wedding-schedule-block">
+                                    <div class="sched-icon-box">💐</div>
+                                    <div class="sched-text-box">
+                                        <div class="sched-title">धन्यवाद एवं स्वागत समारोह</div>
+                                        <div class="sched-time">बारात के तत्पश्चात</div>
+                                        <p class="sched-note">आशीर्वाद एवं स्नेहमिलन</p>
+                                    </div>
+                                </div>
 
-              <div class="venue-main-card">
-                <div class="venue-palace-icon">🏰</div>
-                <h3 class="venue-title-name">KRB, Kadola, Harda</h3>
-                <p class="venue-address-desc">
-                  ग्राम: कडोला, हरदा, मध्य प्रदेश
-                </p>
-                <div class="venue-badge-chip">विवाह तिथि: 10 दिसंबर</div>
-              </div>
+                            </div>
 
-              <div class="venue-action-buttons">
-                <a href="https://maps.google.com/?q=KRB,+Kadola,+Harda" target="_blank" rel="noopener noreferrer" class="btn-royal map-link-btn">
-                  <span class="btn-icon">🗺️</span> गूगल मैप्स पर मार्ग देखें
-                </a>
-                <button id="btnAddToCalendar" class="btn-royal cal-link-btn">
+                            <div class="mandap-peek-frame">
+                                <img src="assets/images/mandap.jpg" alt="विवाह मंडप" class="mandap-peek-img">
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PAGE 7: स्थल विवरण एवं मार्ग (Venue & Navigation) -->
+                    <article class="book-page page-7" data-page="7">
+                        <div class="page-inner royal-frame">
+                            <div class="page-number-tag">पृष्ठ ७</div>
+                            <div class="inner-header">
+                                <div class="sub-ganesh">॥ विवाह स्थल ॥</div>
+                                <h2 class="inner-page-title">शुभ विवाह स्थल एवं दिशा-निर्देश</h2>
+                            </div>
+
+                            <div class="venue-main-card">
+                                <div class="venue-palace-icon">🏰</div>
+                                <h3 class="venue-title-name">KRB, Kadola, Harda</h3>
+                                <p class="venue-address-desc">
+                                    ग्राम: कडोला, हरदा, मध्य प्रदेश
+                                </p>
+                                <div class="venue-badge-chip">विवाह तिथि: 10 दिसंबर</div>
+                            </div>
+
+                            <div class="venue-action-buttons">
+                                <a href="https://maps.google.com/?q=KRB,+Kadola,+Harda" target="_blank" rel="noopener noreferrer" class="btn-royal map-link-btn">
+                                    <span class="btn-icon">🗺️</span> गूगल मैप्स पर मार्ग देखें
+                                </a>
+                                <button id="btnAddToCalendar" class="btn-royal cal-link-btn">
                   <span class="btn-icon">📅</span> कैलेंडर में जोड़ें (Add to Calendar)
                 </button>
-              </div>
+                            </div>
 
-              <!-- Quick Travel Tips Box -->
-              <div class="travel-info-box">
-                <h4 class="info-head">🚗 यात्रा सुझाव एवं सुविधा:</h4>
-                <ul class="travel-list">
-                  <li>हरदा रेलवे स्टेशन / बस स्टैंड से सहज आवागमन की सुविधा उपलब्ध है।</li>
-                  <li>अतिथियों हेतु स्थल पर पर्याप्त वाहन पार्किंग की व्यवस्था है।</li>
-                  <li>किसी भी असुविधा या मार्ग सहायता हेतु परिवार के सदस्यों से संपर्क करें।</li>
-                </ul>
-              </div>
-            </div>
-          </article>
+                            <!-- Quick Travel Tips Box -->
+                            <div class="travel-info-box">
+                                <h4 class="info-head">🚗 यात्रा सुझाव एवं सुविधा:</h4>
+                                <ul class="travel-list">
+                                    <li>हरदा रेलवे स्टेशन / बस स्टैंड से सहज आवागमन की सुविधा उपलब्ध है।</li>
+                                    <li>अतिथियों हेतु स्थल पर पर्याप्त वाहन पार्किंग की व्यवस्था है।</li>
+                                    <li>किसी भी असुविधा या मार्ग सहायता हेतु परिवार के सदस्यों से संपर्क करें।</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
 
-          <!-- PAGE 8: भावभीना विनम्र संदेश एवं निवेदक (Closing) -->
-          <article class="book-page page-8 last-page" data-page="8">
-            <div class="page-inner royal-frame">
-              <div class="page-number-tag">पृष्ठ ८</div>
-              <div class="inner-header">
-                <div class="sub-ganesh">॥ सस्नेह निमंत्रण ॥</div>
-                <h2 class="inner-page-title">सादर निवेदक</h2>
-              </div>
+                    <!-- PAGE 8: भावभीना विनम्र संदेश एवं निवेदक (Closing) -->
+                    <article class="book-page page-8 last-page" data-page="8">
+                        <div class="page-inner royal-frame">
+                            <div class="page-number-tag">पृष्ठ ८</div>
+                            <div class="inner-header">
+                                <div class="sub-ganesh">॥ सस्नेह निमंत्रण ॥</div>
+                                <h2 class="inner-page-title">सादर निवेदक</h2>
+                            </div>
 
-              <!-- The Heartfelt Apology & Humble Note -->
-              <div class="humble-letter-card">
-                <p class="humble-salutation">आदरणीय स्वजन,</p>
-                <p class="humble-body-text">
-                  यदि यह निमंत्रण आप तक डिजिटल माध्यम से पहुँचा है, तो कृपया इसे आप तक स्नेहपूर्वक पहुँचने का एक छोटा-सा प्रयास समझें। बड़ों का आशीर्वाद लेने और अपनों से व्यक्तिगत रूप से मिलने का अपना विशेष महत्व है। किसी कारणवश हम स्वयं आप तक निमंत्रण लेकर नहीं पहुँच पाए हों, तो कृपया हमारी इस त्रुटि को क्षमा करें।
-                </p>
-                <div class="golden-highlight-quote">
-                  “आपका आशीर्वाद ही हमारा सबसे अनमोल उपहार है।”
-                </div>
-              </div>
+                            <!-- The Heartfelt Apology & Humble Note -->
+                            <div class="humble-letter-card">
+                                <p class="humble-salutation">आदरणीय स्वजन,</p>
+                                <p class="humble-body-text">
+                                    यदि यह निमंत्रण आप तक डिजिटल माध्यम से पहुँचा है, तो कृपया इसे आप तक स्नेहपूर्वक पहुँचने का एक छोटा-सा प्रयास समझें। बड़ों का आशीर्वाद लेने और अपनों से व्यक्तिगत रूप से मिलने का अपना विशेष महत्व है। किसी कारणवश हम स्वयं आप तक निमंत्रण लेकर नहीं पहुँच
+                                    पाए हों, तो कृपया हमारी इस त्रुटि को क्षमा करें।
+                                </p>
+                                <div class="golden-highlight-quote">
+                                    “आपका आशीर्वाद ही हमारा सबसे अनमोल उपहार है।”
+                                </div>
+                            </div>
 
-              <div class="booklet-inviters-block">
-                <div class="inv-pre">सादर आमंत्रित</div>
-                <h3 class="inv-names">गुर्जर एवं पाण्डेय परिवार</h3>
-                <div class="inv-swastik">卐 ॥ शुभ विवाह ॥ 卐</div>
-              </div>
+                            <div class="booklet-inviters-block">
+                                <div class="inv-pre">सादर आमंत्रित</div>
+                                <h3 class="inv-names">वर एवं वधू परिवार</h3>
+                                <div class="inv-sub">आपकी गरिमामयी उपस्थिति एवं आशीर्वाद के अभिलाषी</div>
+                                <div class="inv-swastik">卐 ॥ शुभ विवाह ॥ 卐</div>
+                            </div>
 
-              <div class="last-page-actions">
-                <button id="btnShareBookletWhatsApp" class="btn-royal primary-btn">
+                            <div class="last-page-actions">
+                                <button id="btnShareBookletWhatsApp" class="btn-royal primary-btn">
                   💬 व्हाट्सएप पर निमंत्रण भेजें
                 </button>
-                <button id="btnOpenBlessingsModal" class="btn-royal secondary-btn">
+                                <button id="btnOpenBlessingsModal" class="btn-royal secondary-btn">
                   ✍️ नवदम्पति को आशीर्वाद संदेश लिखें
                 </button>
-              </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
             </div>
-          </article>
 
-        </div>
-      </div>
-
-      <!-- Booklet Navigation Arrows (Desktop & Tablet) -->
-      <button id="btnNextPage" class="booklet-nav-btn next-btn" aria-label="अगला पृष्ठ">
+            <!-- Booklet Navigation Arrows (Desktop & Tablet) -->
+            <button id="btnNextPage" class="booklet-nav-btn next-btn" aria-label="अगला पृष्ठ">
         <span>❯</span>
       </button>
 
-    </div>
-
-    <!-- Booklet Bottom Pagination Bar -->
-    <div class="booklet-footer-bar">
-      <button id="btnBookletPrev" class="footer-nav-btn">❮ पिछला पृष्ठ</button>
-      
-      <!-- Page Indicator Dots -->
-      <div class="booklet-pagination-dots" id="paginationDots">
-        <button class="page-dot active" data-page-target="1" title="मुखपृष्ठ"></button>
-        <button class="page-dot" data-page-target="2" title="गणेश वंदना"></button>
-        <button class="page-dot" data-page-target="3" title="वर-वधू"></button>
-        <button class="page-dot" data-page-target="4" title="दिवस १-२"></button>
-        <button class="page-dot" data-page-target="5" title="दिवस ३"></button>
-        <button class="page-dot" data-page-target="6" title="विवाह दिवस"></button>
-        <button class="page-dot" data-page-target="7" title="विवाह स्थल"></button>
-        <button class="page-dot" data-page-target="8" title="आशीर्वाद संदेश"></button>
-      </div>
-
-      <span id="pageIndicatorText" class="page-number-display">पृष्ठ 1 / 8</span>
-      <button id="btnBookletNext" class="footer-nav-btn">अगला पृष्ठ ❯</button>
-    </div>
-
-  </section>
-
-
-  <!-- ========================================================================= -->
-  <!-- 3. MODALS & POPUPS                                                        -->
-  <!-- ========================================================================= -->
-
-  <!-- Blessings / Ashirwad Guestbook Modal -->
-  <div id="blessingsModal" class="royal-modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="blessingsModalTitle">
-    <div class="royal-modal-card royal-frame">
-      <button id="btnCloseBlessingsModal" class="modal-close-btn" aria-label="बंद करें">&times;</button>
-      
-      <div class="modal-header">
-        <span class="modal-diya">🪔</span>
-        <h3 id="blessingsModalTitle" class="modal-title">नवयुगल को आशीर्वाद व शुभकामनाएँ</h3>
-        <p class="modal-subtitle">शशांक एवं अर्चना के लिए अपने स्नेहभरे शब्द लिखें</p>
-      </div>
-
-      <form id="blessingForm" class="blessing-form">
-        <div class="form-group">
-          <label for="guestName">आपका शुभ नाम:</label>
-          <input type="text" id="guestName" required placeholder="उदा. सुरेश गुर्जर / सपरिवार" class="royal-input">
         </div>
 
-        <div class="form-group">
-          <label for="guestCity">शहर / स्थान (वैकल्पिक):</label>
-          <input type="text" id="guestCity" placeholder="उदा. हरदा, भोपाल, इंदौर" class="royal-input">
+        <!-- Booklet Bottom Pagination Bar -->
+        <div class="booklet-footer-bar">
+            <button id="btnBookletPrev" class="footer-nav-btn">❮ पिछला पृष्ठ</button>
+
+            <!-- Page Indicator Dots -->
+            <div class="booklet-pagination-dots" id="paginationDots">
+                <button class="page-dot active" data-page-target="1" title="मुखपृष्ठ"></button>
+                <button class="page-dot" data-page-target="2" title="गणेश वंदना"></button>
+                <button class="page-dot" data-page-target="3" title="वर-वधू"></button>
+                <button class="page-dot" data-page-target="4" title="दिवस १-२"></button>
+                <button class="page-dot" data-page-target="5" title="दिवस ३"></button>
+                <button class="page-dot" data-page-target="6" title="विवाह दिवस"></button>
+                <button class="page-dot" data-page-target="7" title="विवाह स्थल"></button>
+                <button class="page-dot" data-page-target="8" title="आशीर्वाद संदेश"></button>
+            </div>
+
+            <span id="pageIndicatorText" class="page-number-display">पृष्ठ 1 / 8</span>
+            <button id="btnBookletNext" class="footer-nav-btn">अगला पृष्ठ ❯</button>
         </div>
 
-        <div class="form-group">
-          <label for="guestMessage">आशीर्वाद संदेश:</label>
-          <textarea id="guestMessage" rows="3" required placeholder="शशांक और अर्चना को सुखद एवं मंगलमय दांपत्य जीवन का हार्दिक आशीर्वाद..." class="royal-input"></textarea>
-        </div>
+    </section>
 
-        <button type="submit" class="btn-royal primary-btn submit-btn">
+
+    <!-- ========================================================================= -->
+    <!-- 3. MODALS & POPUPS                                                        -->
+    <!-- ========================================================================= -->
+
+    <!-- Blessings / Ashirwad Guestbook Modal -->
+    <div id="blessingsModal" class="royal-modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="blessingsModalTitle">
+        <div class="royal-modal-card royal-frame">
+            <button id="btnCloseBlessingsModal" class="modal-close-btn" aria-label="बंद करें">&times;</button>
+
+            <div class="modal-header">
+                <span class="modal-diya">🪔</span>
+                <h3 id="blessingsModalTitle" class="modal-title">नवयुगल को आशीर्वाद व शुभकामनाएँ</h3>
+                <p class="modal-subtitle">शशांक एवं अर्चना के लिए अपने स्नेहभरे शब्द लिखें</p>
+            </div>
+
+            <form id="blessingForm" class="blessing-form">
+                <div class="form-group">
+                    <label for="guestName">आपका शुभ नाम:</label>
+                    <input type="text" id="guestName" required placeholder="उदा. सुरेश गुर्जर / सपरिवार" class="royal-input">
+                </div>
+
+                <div class="form-group">
+                    <label for="guestCity">शहर / स्थान (वैकल्पिक):</label>
+                    <input type="text" id="guestCity" placeholder="उदा. हरदा, भोपाल, इंदौर" class="royal-input">
+                </div>
+
+                <div class="form-group">
+                    <label for="guestMessage">आशीर्वाद संदेश:</label>
+                    <textarea id="guestMessage" rows="3" required placeholder="शशांक और अर्चना को सुखद एवं मंगलमय दांपत्य जीवन का हार्दिक आशीर्वाद..." class="royal-input"></textarea>
+                </div>
+
+                <button type="submit" class="btn-royal primary-btn submit-btn">
           ✨ आशीर्वाद प्रेषित करें
         </button>
-      </form>
+            </form>
 
-      <!-- Wishes Stream -->
-      <div class="recent-blessings-section">
-        <h4 class="recent-title">स्वजनों के आशीर्वाद:</h4>
-        <div id="blessingsList" class="blessings-list">
-          <!-- Populated dynamically via JS -->
+            <!-- Wishes Stream -->
+            <div class="recent-blessings-section">
+                <h4 class="recent-title">स्वजनों के आशीर्वाद:</h4>
+                <div id="blessingsList" class="blessings-list">
+                    <!-- Populated dynamically via JS -->
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 
-  <!-- Video Export Status Modal -->
-  <div id="videoExportModal" class="royal-modal-overlay hidden" role="dialog" aria-modal="true">
-    <div class="royal-modal-card royal-frame export-card">
-      <button id="btnCloseExportModal" class="modal-close-btn" aria-label="बंद करें">&times;</button>
-      <div class="modal-header">
-        <span class="modal-diya">🎬</span>
-        <h3 class="modal-title">सिनेमैटिक वीडियो तैयार किया जा रहा है</h3>
-        <p class="modal-subtitle">शाही विवाह फिल्म रेंडर हो रही है, कृपया प्रतीक्षा करें...</p>
-      </div>
+    <!-- Video Export Status Modal -->
+    <div id="videoExportModal" class="royal-modal-overlay hidden" role="dialog" aria-modal="true">
+        <div class="royal-modal-card royal-frame export-card">
+            <button id="btnCloseExportModal" class="modal-close-btn" aria-label="बंद करें">&times;</button>
+            <div class="modal-header">
+                <span class="modal-diya">🎬</span>
+                <h3 class="modal-title">सिनेमैटिक वीडियो तैयार किया जा रहा है</h3>
+                <p class="modal-subtitle">शाही विवाह फिल्म रेंडर हो रही है, कृपया प्रतीक्षा करें...</p>
+            </div>
 
-      <div class="export-progress-wrap">
-        <div class="export-spinner"></div>
-        <div class="export-status-text" id="exportStatusText">दृश्य एवं संगीत संजोया जा रहा है...</div>
-        <div class="export-progress-bar">
-          <div class="export-progress-fill" id="exportProgressFill"></div>
-        </div>
-      </div>
+            <div class="export-progress-wrap">
+                <div class="export-spinner"></div>
+                <div class="export-status-text" id="exportStatusText">दृश्य एवं संगीत संजोया जा रहा है...</div>
+                <div class="export-progress-bar">
+                    <div class="export-progress-fill" id="exportProgressFill"></div>
+                </div>
+            </div>
 
-      <div id="exportReadyActions" class="export-ready-actions hidden">
-        <p class="export-success-msg">🎉 शाही विवाह निमंत्रण वीडियो सफलतापूर्वक तैयार हो गया!</p>
-        <a id="btnDownloadVideoFile" class="btn-royal primary-btn" download="Shashank_Archana_Wedding_Invitation.webm">
+            <div id="exportReadyActions" class="export-ready-actions hidden">
+                <p class="export-success-msg">🎉 शाही विवाह निमंत्रण वीडियो सफलतापूर्वक तैयार हो गया!</p>
+                <a id="btnDownloadVideoFile" class="btn-royal primary-btn" download="Shashank_Archana_Wedding_Invitation.webm">
           📥 वीडियो फाइल डाउनलोड करें
         </a>
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <!-- Hidden Canvas for Offscreen Video Recording -->
-  <canvas id="recordCanvas" width="1280" height="720" style="display:none;"></canvas>
+    <!-- Hidden Canvas for Offscreen Video Recording -->
+    <canvas id="recordCanvas" width="1280" height="720" style="display:none;"></canvas>
 
-  <!-- JavaScript Modules -->
-  <script src="js/audio.js"></script>
-  <script src="js/particles.js"></script>
-  <script src="js/cinematic.js"></script>
-  <script src="js/booklet.js"></script>
-  <script src="js/videoRecorder.js"></script>
-  <script src="js/main.js"></script>
+    <!-- JavaScript Modules -->
+    <script src="js/audio.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/cinematic.js"></script>
+    <script src="js/booklet.js"></script>
+    <script src="js/videoRecorder.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
